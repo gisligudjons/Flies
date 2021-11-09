@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boids</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="boid.js"></script>
+    <script src="quadtree.js"></script>
+    <script src="flock.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="modal">
+        <input id="modal__trigger" type="checkbox" />
+        <label for="modal__trigger">FLY.</label>
+        <div class="modal__overlay">
+          <div class="modal__wrap">
+            <label for="modal__trigger">&#10006;</label>
+            <h2>The Flies of the Smithsonian</h2>
+            <p> 
+              By using the data from NMNH Education and Outrach program. The goal of the visualization is to inspire people of all ages to better understand the natural world and our place in it. By focusing on flies (Diptera), I hope to shed light on a species not often explored and looked at. <br><br>
+              
+              This visualization is an implementation of Craig Reynold's Boids program to simulate the flocking behavior of birds. 
+              Each boid (flies in out case) steers itself based on rules of separation, alignment, and coherence. See<a href="https://codeheir.com/2021/03/27/the-flocking-algorithm/"> here</a> for more info regarding flocking
+            
+            </p>
+              
+              <br><br>
+              Visualization by <a href="https://linkedin.com/in/gisli-gudjonsson", target="_blank"> Gisli Gudjonsson</a>, Data Visualization graduate student at Parsons school of design
+              <br><br>
+
+
+            
+          </div>
+        </div>
+      </div>
+
+</body>
