@@ -45,7 +45,6 @@ function preload() {
         , fly25 , fly26 , fly27 , fly28 , fly29]
 
     
-    predatorFish = loadImage('assets/blueMarlin.png')
 
     backgroundimage = loadImage('pure-white-background-85a2a7fd.jpeg')
     // data = loadJSON(data.json)
